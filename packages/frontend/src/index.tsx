@@ -1,5 +1,5 @@
 import React from 'react';
-import { App } from './App';
+import { App } from './features/App';
 import { bootstrap } from './bootstrap';
 
 bootstrap().render(

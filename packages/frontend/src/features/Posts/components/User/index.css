@@ -1,0 +1,26 @@
+.user {
+  display: flex;
+  position: relative;
+  width: 100%;
+  border: 1px solid #c2c2c2;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  justify-content: space-between;
+}
+
+.user:hover,
+.user_active {
+  background-color: #c2c2c2;
+}
+
+.user__email {
+  display: block;
+  max-width: 85%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.user__count {
+  color: #0E6AED;
+}
