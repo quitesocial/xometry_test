@@ -1,4 +1,3 @@
-import React, { Fragment } from 'react';
 import { observer } from 'mobx-react-lite';
 
 import { useStore } from '../../hooks/useStore';
@@ -12,11 +11,11 @@ const AppFC = () => {
   const { authStore } = useStore();
   
   return (
-    <Fragment>
+    <>
       {!authStore.user?.id && <Login />}
   
       {authStore.user?.id && <Posts />}
-    </Fragment>
+    </>
   );
 };
 
