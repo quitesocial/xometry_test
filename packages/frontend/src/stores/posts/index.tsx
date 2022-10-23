@@ -5,7 +5,6 @@ import type { Post, Posts } from '../../requests/getPosts';
 import { getPosts as getPostsRequest } from '../../requests/getPosts';
 
 import { authStore } from '../auth';
-import type { User } from '../../requests/register'
 
 type OnSuccessArgs = {
   posts?: Posts,
